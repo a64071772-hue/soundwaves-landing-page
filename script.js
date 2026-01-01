@@ -97,3 +97,15 @@ window.addEventListener("DOMContentLoaded", adjustLayout);
 
 // Run on window resize
 window.addEventListener("resize", adjustLayout);
+
+
+
+
+
+// Hamburger menu toggle
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('nav-links');
+
+hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+});
