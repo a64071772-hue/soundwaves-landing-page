@@ -361,35 +361,32 @@ footer {
 /* ===============================
    RESPONSIVE FIX (NAVBAR + HERO + ABOUT)
    =============================== */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) { */
 
   /* NAVBAR FIX */
-  .navbar {
-    flex-direction: column;      /* Stack logo + nav vertically */
-    align-items: center;         /* Center everything */
-    padding: 15px 5%;            /* Less padding for mobile */
-  }
+  /* .navbar {
+    flex-direction: column;      
+    align-items: center;         
+    padding: 15px 5%;            
 
   .navbar h1 {
-    margin-bottom: 10px;         /* Space between logo and nav */
+    margin-bottom: 10px;         
     text-align: center;
   }
 
   .navbar nav {
-    margin: 0;                    /* Remove desktop margin */
-    display: flex;
-    flex-wrap: wrap;              /* Allow links to wrap to next line */
-    justify-content: center;      /* Center nav links */
-    gap: 10px;                    /* Space between links */
-  }
+    margin: 0;                    
+    flex-wrap: wrap;              
+    justify-content: center;      
+    gap: 10px;                    
 
   .navbar nav a {
-    margin: 5px 8px;              /* Space between links */
-    font-size: 16px;              /* Slightly smaller font on mobile */
-  }
+    margin: 5px 8px;              
+    font-size: 16px;             
+  } */
 
   /* HERO SECTION */
-  .hero {
+  /* .hero {
     height: auto;
     padding: 120px 20px;
     background-position: center;
@@ -422,10 +419,10 @@ footer {
 
   .btn.ghost {
     margin-left: 0;
-  }
+  } */
 
   /* ABOUT SECTION */
-  .card1 {
+  /* .card1 {
     margin: auto;
     width: 100%;
     height: auto;
@@ -448,7 +445,7 @@ footer {
     height: auto;
   }
 
-}
+} */
 
 
 
